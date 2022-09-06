@@ -1,7 +1,5 @@
 .about__container {
   display: grid;
-  grid-template-columns: 35% 50%;
-  gap: 15%;
 }
 
 .about__me {
@@ -64,8 +62,13 @@
 }
 
 .about__content p {
-  margin: 2rem 0 2.6rem;
+  text-align: center;
+  margin: 2rem 25rem 2.6rem;
   columns: var(--color-light);
+}
+
+.contact__button {
+  text-align: center;
 }
 
 /* ================== MEDIA QUERIES (MEDIUM DEVICES) =================== */

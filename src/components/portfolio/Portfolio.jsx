@@ -70,7 +70,12 @@ const Portfolio = () => {
                 <a href={github} className="btn">
                   Source Code
                 </a>
-                <a href={demo} className="btn btn-primary" target="_blank">
+                <a
+                  href={demo}
+                  className="btn btn-primary"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Live Demo
                 </a>
               </div>

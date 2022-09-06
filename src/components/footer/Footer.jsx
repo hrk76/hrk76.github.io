@@ -1,16 +1,16 @@
 import React from "react";
 import "./footer.css";
-import { BsGithub } from "react-icons/bs";
+import { BsGithub, BsLinkedin } from "react-icons/bs";
 const Footer = () => {
   return (
     <div>
       <footer>
-        <a href="#" className="footer__logo">
-          AUSTIN
+        <a href="#top" className="footer__logo">
+          AUSTIN SONG
         </a>
         <ul className="permalinks">
           <li>
-            <a href="#">Home</a>
+            <a href="#top">Home</a>
           </li>
           <li>
             <a href="#about">About</a>
@@ -32,8 +32,11 @@ const Footer = () => {
           </li>
         </ul>
         <div className="footer__socials">
-          <a href="https://github.com">
+          <a href="https://github.com" target="_blank" rel="noreferrer">
             <BsGithub />
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+            <BsLinkedin />
           </a>
         </div>
         <div className="footer__copyright">
